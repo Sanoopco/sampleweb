@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">E-kart</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      shop
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">All products</a></li>
+                      <li><a class="dropdown-item" href="#">New Arraivals</a></li>
+                      <li><a class="dropdown-item" href="#">collections</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Contact us</a>
+                  </li>
+                </ul>
+                <button type="button" class="btn border">cart<i class="fa-solid fa-cart-shopping ps-2 pe-2"></i></button>
+              </div>
+            </div>
+          </nav>
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/Lada_2016_Vesta_Sport_Concept_Gray_background_Grey_532593_4096x2048.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block position-absolute  start-">
+                  <h1 >New Arraivals</h1>
+                  <p class="text-light">Some representative placeholder content for the first slide.</p>
+                  <button type="button" class="btn btn-primary me-4 mt-3">check out</button>
+                  <button type="button" class="btn btn-outline-primary text-light mt-3">know more</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Maserati_2017_Quattroporte_GTS_GranSport_Grey_532438_1365x1024.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h1>Second slide label</h1>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/3031670/pexels-photo-3031670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h1>Third slide label</h1>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+      <div class="category-container d-flex align-items-center justify-content-evenly gap-3 mt-5">
+        <div class="category d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-car"></i>
+            <p class="category-name">volx autos</p>
+        </div>
+        <div class="category d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-building-user p-2"></i>
+            <p class="category-name">properties</p>
+        </div>
+        <div class="category d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-mobile p-2"></i>
+            <p class="category-name">mobiles</p>
+        </div>
+        <div class="category d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-motorcycle p-2"></i>
+            <p class="category-name">bikes</p>
+        </div>
+        <div class="category d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-motorcycle p-2"></i>
+            <p class="category-name">electronics</p>
+        </div>
+        <div class="category d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-screwdriver-wrench p-2"></i>
+            <p class="category-name text-center">vehicles and spares</p>
+        </div>
+        <div class="category d-flex flex-column align-items-center justify-content-center">
+            <i class="fa-solid fa-couch p-2"></i>
+            <p class="category-name">furnitures</p>
+        </div>
+    </div>
+    <div class="container main-product-container mt-5 d-flex align-items-center">
+      <div class="row">
+        <div class="product-container d-flex flex-column align-items-center col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <div class="card d-flex flex-column align-items-center border">
+            <div class="image-container">
+          <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/48d16e65-e295-45ef-a59d-ee85f787001d_400x.png?v=1625044995" alt="">
+        </div>
+        <div class="info-container d-flex flex-column align-items-center">
+          <p class="product-name text-dark">boAt Xtend Smartwatch</p>
+          <p class="price text-dark">₹ 1500 <span class="before-price text-danger ps-4">₹ 1999</span></p>
+          <button type="button" class="btn btn-danger">add to cart</button>
+        </div>
+          </div>
+      </div>
+      <div class="product-container d-flex flex-column align-items-center col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="card d-flex flex-column align-items-center border">
+          <div class="image-container">
+          <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/93b827fc-0108-4e8b-9ea9-e66fb1e7a362_600x.png?v=1625157890" alt="">
+        </div>
+        <div class="info-container d-flex flex-column align-items-center">
+          <p class="product-name text-dark">boAt Rockerz 255 Pro+</p>
+          <p class="price text-dark">₹ 1,099<span class="before-price text-danger ps-4">₹ 1599</span></p>
+          <button type="button" class="btn btn-danger">add to cart</button>
+        </div>
+        </div>
+        
+      </div>
+      <div class="product-container d-flex flex-column align-items-center col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="card d-flex flex-column align-items-center border ">
+          <div class="image-container">
+          <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_600x.png?v=1625046144" alt="">
+        </div>
+        <div class="info-container d-flex flex-column align-items-center">
+          <p class="product-name text-dark">boAt Rockerz 550</p>
+          <p class="price text-dark">₹ 1,499 <span class="before-price text-danger ps-4">₹ 2999</span></p>
+          <button type="button" class="btn btn-danger">add to cart</button>
+        </div>
+        </div>
+        
+      </div>
+      <div class="product-container d-flex flex-column align-items-center col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card d-flex flex-column align-items-center border">
+            <div class="image-container">
+          <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7499af44-9d7a-489c-80f0-51f7799289e4_600x.png?v=1625045491" alt="">
+        </div>
+        <div class="info-container d-flex flex-column align-items-center">
+          <p class="product-name text-dark">boAt Xtend Smartwatch</p>
+          <p class="price text-dark">₹ 1499 <span class="before-price ps-4 text-danger">₹ 2199</span></p>
+          <button type="button" class="btn btn-danger">add to cart</button>
+        </div>
+          </div>  
+        
+      </div>
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+    </div>
+    <footer class="bg-dark">
+      <p class="copyright-text">
+        copyright your website 2022
+      </p>
+    </footer>
+    <script>
+      const container = document.querySelector(".product-container");
+      container.addEventListener("click",()=>{
+        location.href="./productdetail/index.html";
+      })
+    </script>
+</body>
+</html>
